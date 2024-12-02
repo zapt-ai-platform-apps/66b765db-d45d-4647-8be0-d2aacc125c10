@@ -1,0 +1,22 @@
+{
+    "name": "solidjs-vite-tailwind-vercel",
+    "version": "1.0.0",
+    "description": "SolidJS app with Vite, Tailwind",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "@sentry/browser": "^8.41.0",
+        "solid-js": "^1.8.22"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13",
+        "vite": "^5.4.7",
+        "vite-plugin-solid": "^2.10.2"
+    }
+}

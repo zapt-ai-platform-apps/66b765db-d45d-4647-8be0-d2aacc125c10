@@ -1,22 +1,26 @@
 {
-    "name": "solidjs-vite-tailwind-vercel",
-    "version": "1.0.0",
-    "description": "SolidJS app with Vite, Tailwind",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview"
-    },
-    "dependencies": {
-        "@sentry/browser": "^8.41.0",
-        "solid-js": "^1.8.22"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13",
-        "vite": "^5.4.7",
-        "vite-plugin-solid": "^2.10.2"
-    }
+  "name": "solidjs-vite-tailwind-vercel",
+  "version": "1.0.0",
+  "description": "CraneApp - SolidJS app with Vite, Tailwind",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@sentry/browser": "^8.41.0",
+    "solid-js": "^1.8.22",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/auth-ui-solid": "^0.3.2",
+    "@supabase/supabase-js": "^2.13.1",
+    "@solidjs/router": "^0.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7",
+    "vite-plugin-solid": "^2.10.2"
+  }
 }
